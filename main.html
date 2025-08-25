@@ -1,16 +1,39 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testimonial Section</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    
 </head>
+<body class="bg-gray-100 min-h-screen flex items-center justify-center">
 
-<body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <!-- Main Container -->
+    <div class="container mx-auto px-4 py-8 md:p-12">
+        <h2 class="text-4xl font-bold text-center text-gray-800 mb-10">What Our Clients Say</h2>
+        
+        <!-- Testimonials Grid -->
+        <div class="flex flex-col md:flex-row gap-6 justify-center">
+            <!-- Testimonial 1 -->
+            <div class="flex flex-col p-6 bg-white border border-gray-200 rounded-lg shadow-md transition-transform transform hover:scale-105">
+                <p class="text-lg text-gray-700 leading-relaxed mb-4">"Working with this team has been a game-changer. Their attention to detail and creative solutions have exceeded all our expectations. Highly recommended!"</p>
+                <p class="text-right italic text-gray-500 font-semibold">- Jane Doe</p>
+            </div>
+            
+            <!-- Testimonial 2 -->
+            <div class="flex flex-col p-6 bg-white border border-gray-200 rounded-lg shadow-md transition-transform transform hover:scale-105">
+                <p class="text-lg text-gray-700 leading-relaxed mb-4">"The results were outstanding. Their professional approach and commitment to our project made the entire process seamless and enjoyable. We'll definitely be back!"</p>
+                <p class="text-right italic text-gray-500 font-semibold">- John Smith</p>
+            </div>
+
+            <!-- Testimonial 3 -->
+            <div class="flex flex-col p-6 bg-white border border-gray-200 rounded-lg shadow-md transition-transform transform hover:scale-105">
+                <p class="text-lg text-gray-700 leading-relaxed mb-4">"An incredible experience from start to finish. The final product was exactly what we envisioned and delivered ahead of schedule. Thank you!"</p>
+                <p class="text-right italic text-gray-500 font-semibold">- Alex Chen</p>
+            </div>
+        </div>
+    </div>
 
 </body>
-
 </html>
